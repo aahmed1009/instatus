@@ -1,6 +1,5 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HomeView from "../views/HomeView.vue";
 import why from "../views/WhyPage.vue";
 import pricing from "../views/PricingPage.vue";
 import SingIn from "../views/SingIn.vue";
@@ -9,11 +8,6 @@ import SingUp from "../views/SingUp.vue";
 Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: "/",
-    name: "home",
-    component: HomeView,
-  },
   {
     path: "/why",
     name: "about",

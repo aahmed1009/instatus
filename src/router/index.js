@@ -6,16 +6,19 @@ import AppUpdates from "../components//AppUpdates.vue";
 import AppContactUs from "../components//AppContactUs.vue";
 import AppTeams from "../components//AppTeams.vue";
 import AppFeatures from "../components//AppFeatures.vue";
+import AppEyes from "../components//AppEyes.vue";
+import AppFeedback from "../components//AppFeedback.vue";
+import AppQuestions from "../components//AppQuestions.vue";
 import Home from "../views/HomePage.vue";
 import why from "../views/WhyPage.vue";
 import Company from "../views/CompanyPage.vue";
 import pricing from "../views/PricingPage.vue";
 import SignIn from "../views/SignIn.vue";
 import SignUp from "../views/SignUp.vue";
-import ResetPassword from "../views/ResetPassword.vue";
+
 import TheLogout from "../views/TheLogout.vue";
 import Dashboard from "../views/DashboardPage.vue";
-import Register from "../views/RegisterView.vue";
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -30,20 +33,32 @@ const routes = [
     component: Home,
   },
   {
+    path: "/AppFeedback",
+    name: "AppFeedback",
+    component: AppFeedback,
+  },
+  {
+    path: "/AppEyes",
+    name: "AppEyes",
+    component: AppEyes,
+  },
+  {
+    path: "/AppQuestions",
+    name: "AppQuestions",
+    component: AppQuestions,
+  },
+  {
     path: "/AppTeams",
     name: "AppTeams",
     component: AppTeams,
   },
+
   {
     path: "/AppFeatures",
     name: "AppFeatures",
     component: AppFeatures,
   },
-  {
-    path: "/Register",
-    name: "Register",
-    component: Register,
-  },
+
   {
     path: "/AppContactUs",
     name: "AppContactUs",
@@ -65,14 +80,16 @@ const routes = [
     name: "AppUpdates",
     component: AppUpdates,
   },
+
   {
     path: "/Dashboard",
     name: "Dashboard",
     component: Dashboard,
   },
+
   {
     path: "/why",
-    name: "about",
+    name: "why",
     component: why,
   },
   {
@@ -82,11 +99,11 @@ const routes = [
   },
   {
     path: "/pricing",
-    name: "about",
+    name: "pricing",
     component: pricing,
   },
   {
-    path: "/SignIn",
+    path: "/sign-in",
     name: "SignIn",
     component: SignIn,
   },
@@ -95,11 +112,7 @@ const routes = [
     name: "SignUp",
     component: SignUp,
   },
-  {
-    path: "/ResetPassword",
-    name: "ResetPassword",
-    component: ResetPassword,
-  },
+
   {
     path: "/TheLogout",
     name: "TheLogout",

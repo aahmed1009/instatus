@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{html,js,vue}"],
   theme: {
@@ -14,11 +15,19 @@ module.exports = {
           "60%": { transform: "rotate(0.0deg)" },
           "100%": { transform: "rotate(0.0deg)" },
         },
+        BounceIN: {
+          "0%": { opacity: "0", transform: "translateY(-10px);" },
+
+          "60%": { opacity: "1", transform: "translateY(30px);" },
+          "80%": { opacity: "1", transform: "translateY(-10px);" },
+          "100%": { opacity: "1", transform: "translateY(0);" },
+        },
       },
       animation: {
         "waving-hand": "wave 2s linear infinite",
+        "Bounce-InDown": "BounceIN 5s  infinite",
       },
     },
   },
-  plugins: [],
+  plugins: [require("kutty")],
 };

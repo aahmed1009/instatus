@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <Header />
+    <Header v-if="$route.name !== 'SignIn' && $route.name !== 'SignUp'" />
     <!-- <router-link to="/Home.vue"></router-link> -->
     <!-- <HomePage /> -->
     <router-view />
-    <Footer />
+    <Footer v-if="$route.name !== 'SignIn' && $route.name !== 'SignUp'" />
   </div>
 </template>
 <script>

@@ -1,36 +1,91 @@
 <template>
   <div class="AppFeatures">
-    <div
-      class="flex flex-col max-w-md gap-2 p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100"
-    >
-      <h2
-        class="flex items-center gap-2 text-xl font-semibold leading-tight tracking-wide"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 512 512"
-          class="w-6 h-6 fill-current shrink-0 dark:text-violet-400"
+    <section class="py-10 bg-white-100 sm:py-16 lg:py-24">
+      <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2
+            class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
+          >
+            Numbers tell our story
+          </h2>
+          <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
+            Everything you need for Uptime Monitoring
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-3 animate-Bounce-InDown"
         >
-          <path
-            d="M451.671,348.569,408,267.945V184c0-83.813-68.187-152-152-152S104,100.187,104,184v83.945L60.329,348.568A24,24,0,0,0,81.432,384h86.944c-.241,2.636-.376,5.3-.376,8a88,88,0,0,0,176,0c0-2.7-.135-5.364-.376-8h86.944a24,24,0,0,0,21.1-35.431ZM312,392a56,56,0,1,1-111.418-8H311.418A55.85,55.85,0,0,1,312,392ZM94.863,352,136,276.055V184a120,120,0,0,1,240,0v92.055L417.137,352Z"
-          ></path>
-          <rect width="32" height="136" x="240" y="112"></rect>
-          <rect width="32" height="32" x="240" y="280"></rect></svg
-        >Necessitatibus dolores quasi quae?
-      </h2>
-      <p class="flex-1 dark:text-gray-400">
-        Mauris et lorem at elit tristique dignissim et ullamcorper elit. In sed
-        feugiat mi. Etiam ut lacinia dui.
-      </p>
-      <div class="flex flex-col justify-end gap-3 mt-6 sm:flex-row">
-        <button class="px-6 py-2 rounded-sm">No</button>
-        <button
-          class="px-6 py-2 rounded-sm shadow-sm dark:bg-violet-400 dark:text-gray-900"
-        >
-          Yes
-        </button>
+          <div>
+            <h3 class="font-bold text-7xl">
+              <span
+                class="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-teal-400"
+              >
+                10x
+              </span>
+            </h3>
+            <p class="mt-4 text-xl font-medium text-gray-900">
+              quicker to load
+            </p>
+            <p class="text-base mt-0.5 text-gray-500">
+              Creating the successful path
+            </p>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-7xl">
+              <span
+                class="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-teal-400"
+              >
+                99.9%
+              </span>
+            </h3>
+            <p class="mt-4 text-xl font-medium text-gray-900">
+              status page uptime
+            </p>
+            <p class="text-base mt-0.5 text-gray-500">In last 2 years</p>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-7xl">
+              <span
+                class="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-teal-400"
+              >
+                37+
+              </span>
+            </h3>
+            <p class="mt-4 text-xl font-medium text-gray-900">Team Members</p>
+            <p class="text-base mt-0.5 text-gray-500">
+              Working for your success
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- <section class="anotherfeatures">
+      <div
+        class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 animate-Bounce-InDown"
+      >
+        <div class="grid row-gap-8 sm:grid-cols-3">
+          <div class="text-center">
+            <h6 class="text-5xl font-bold text-deep-purple-accent-400">10x</h6>
+            <p class="font-bold">quicker to load</p>
+          </div>
+          <div class="text-center">
+            <h6 class="text-5xl font-bold text-deep-purple-accent-400">
+              27.3K
+            </h6>
+            <p class="font-bold">Users</p>
+          </div>
+          <div class="text-center">
+            <h6 class="text-5xl font-bold text-deep-purple-accent-400">
+              99.9%
+            </h6>
+            <p class="font-bold">status page uptime</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
   </div>
 </template>
 

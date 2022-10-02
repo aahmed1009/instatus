@@ -178,7 +178,7 @@
                 />
               </div>
               <div
-                data-aos="fade-left"
+                data-aos="fade-right"
                 class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
               >
                 <div class="md:pr-4 lg:pr-12 xl:pr-16">
@@ -210,7 +210,7 @@
                 />
               </div>
               <div
-                data-aos="fade-right"
+                data-aos="fade-left"
                 class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
               >
                 <div class="md:pl-4 lg:pl-12 xl:pl-16">
@@ -275,7 +275,7 @@
                 />
               </div>
               <div
-                data-aos="fade-right"
+                data-aos="fade-left"
                 class="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
               >
                 <div class="md:pl-4 lg:pl-12 xl:pl-16">
@@ -299,6 +299,7 @@
       </div>
     </section>
     <div><AppFeatures /></div>
+    <div><pricing /></div>
     <div>
       <AppFeedback />
     </div>

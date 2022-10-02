@@ -62,7 +62,7 @@
               <button
                 class="text-gray-800 text-sm font-semibold leading-5 hover:text-green-700"
               >
-                <router-link to="/why">WhyInstatus</router-link>
+                <router-link to="/why">Why</router-link>
               </button>
               <button
                 class="text-gray-800 text-sm font-semibold leading-5 hover:text-green-700"
@@ -93,48 +93,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <section class="header1">
-      <header class="text-gray-700 body-font">
-        <div
-          class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row"
-        >
-          <router-link to="/Home">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-10 h-10 p-2 text-white bg-indigo-500 rounded-full"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-              ></path></svg
-          ></router-link>
-          <a
-            class="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0"
-          >
-            <span class="ml-3 text-xl">Instatus</span>
-          </a>
-          <nav
-            class="flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto"
-          >
-            <router-link to="/Home">Home</router-link>|
-            <router-link to="/why">WhyInstatus</router-link>|
-            <router-link to="/Company">Company</router-link>|
-            <router-link to="/pricing">Pricing</router-link>|
-            <router-link to="/SignIn">SignIn</router-link>|
-            <router-link to="/SignUp">SignUp</router-link>|
-            <router-link to="/Register">Register</router-link>
-          </nav>
-
-          <the-logout />
-        </div>
-      </header>
-    </section> -->
   </div>
 </template>
 <script>

@@ -22,11 +22,11 @@ import Dashboard from "../views/DashboardPage.vue";
 Vue.use(VueRouter);
 
 const routes = [
-  // {
-  //   path: "/",
-  //   name: "Home",
-  //   component: Home,
-  // },
+  {
+    path: "/",
+    name: "Home",
+    component: Home,
+  },
   {
     path: "/Home",
     name: "Home",

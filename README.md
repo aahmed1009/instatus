@@ -22,3 +22,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+### :hammer: Live Demo
+[Instatus !](https://aahmed1009.github.io/instatus/)

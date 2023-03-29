@@ -1,3 +1,18 @@
+# status-page
+[![LinkedIn][linkedin-shield]][[linkedin-url](https://www.linkedin.com/in/alaa-%D9%90ahmed-6a36bb199/)]
+[![MIT License][license-shield]][[license-url](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)]
+
+<br />
+<div>
+
+<h3 align="center">Status Page Project</h3>
+
+  <p align="center">
+    Website Uptime Monitoring
+    
+    
+</div>
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
  powerful tool for businesses and organizations that need to monitor the status of their critical services and keep their customers and stakeholders informed if website get down.
@@ -8,11 +23,11 @@
 
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 * ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
+* ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 * ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-* ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-* ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+
+
 
 ## Project setup
 ```

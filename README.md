@@ -1,6 +1,6 @@
 # status-page
-[![LinkedIn][linkedin-shield]][[linkedin-url](https://www.linkedin.com/in/alaa-%D9%90ahmed-6a36bb199/)]
-[![MIT License][license-shield]][[license-url](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)]
+[![LinkedIn](https://www.linkedin.com/in/alaa-%D9%90ahmed-6a36bb199/)]
+[![MIT License](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)]
 
 <br />
 <div>
